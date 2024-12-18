@@ -1,8 +1,6 @@
 # Biophysics-Model
 
-Assignee: Hou Shuyang
 Status: Done
-Sub-tasks: ODEs (https://www.notion.so/ODEs-d51defd9e96943e68d29ff31d872c907?pvs=21)
 
 # The Results for Molecular Dynamics Simulation
 
