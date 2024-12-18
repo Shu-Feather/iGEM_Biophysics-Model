@@ -15,11 +15,7 @@ In order to characterize our split enzyme system (take TEV as an example) first
 3. The NPT equilibrium under the average of 1 bar.
 4. The density of the manipulation system
 
-Following by the analyses of the trajectory results for TEV (Video 1), the Gibbs energy landscape (with principal component values to be gyration radius and RMSD) can be calculated and plotted (Figure 2).
-
-[TEVp_Trajectory.mov](Biophysics-Model%20b3deadac9aa542058c1c8d16e79632e8/TEVp_Trajectory.mov)
-
-**Video 1: The trajectory for the whole split enzyme system of TEV**
+Following by the analyses of the trajectory results for TEV, the Gibbs energy landscape (with principal component values to be gyration radius and RMSD) can be calculated and plotted (Figure 2).
 
 ![Figure. 2.svg](Figure._2.svg)
 
@@ -44,15 +40,8 @@ First of all, we can immediately extract the diffusion constant through the regr
 
 **Figure 4: The linear regression for the MSD value of the TEV to gain diffusion constant.**
 
-Furthermore, by applying the same analyses logic to the nTEV and cTEV protein (10-ns OPLS-AA/L all-atom force field MD, Video 2 and Video 3), we have found some possible Phe sites for the clicking reaction which is vital to the linkage between the split enzyme and the aptamer. Eventually, we choose a pair of plausible Phe sites each on either nTEV or cTEV, due to the fact that they are away from the reaction core of the enzyme and lie in the flexible loop of the protein (Figure 5).
+Furthermore, by applying the same analyses logic to the nTEV and cTEV protein (10-ns OPLS-AA/L all-atom force field MD), we have found some possible Phe sites for the clicking reaction which is vital to the linkage between the split enzyme and the aptamer. Eventually, we choose a pair of plausible Phe sites each on either nTEV or cTEV, due to the fact that they are away from the reaction core of the enzyme and lie in the flexible loop of the protein (Figure 5).
 
-[nPPV.mov](nPPV.mov)
-
-**Video 2: The trajectory analysis for nTEV**
-
-[cTEVp.mov](cTEVp.mov)
-
-**Video 3: The trajectory analysis for cTEV**
 
 ![image.gif](image%201.gif)
 
@@ -62,15 +51,7 @@ Furthermore, by applying the same analyses logic to the nTEV and cTEV protein (1
 2. The chosen Phe site on the cTEV protein.
 3. The pair of chosen Phe sites on the TEV (with the b-factor the same as Figure. MD4).
 
-Alternatively, we also perform the MD simulation for the PPV system as follows (Video 4 and Video 5), and eventually choose out the appropriate Phe sites for clicking reaction in Figure 6.
-
-[nPPV copy.mov](nPPV_copy.mov)
-
-**Video 4: The trajectory analysis for nPPV**
-
-[cPPV copy.mov](cPPV_copy.mov)
-
-**Video 5: The trajectory analysis for cPPV**
+Alternatively, we also perform the MD simulation for the PPV system as follows, and eventually choose out the appropriate Phe sites for clicking reaction in Figure 6.
 
 ![PPV_Phe.png](PPV_Phe.png)
 
@@ -167,10 +148,10 @@ With relative low dragging force v compared with the diffusion constant, the dif
 
 [Diffusion_case1.mov](Diffusion_case1.mov)
 
-**Video 6: Low Oriented Dragging force diffusion**
+**Video 1: Low Oriented Dragging force diffusion**
 
 Nevertheless, when the dragging force v is apparently higher than the diffusion rate, there can be turbulence (i.e. Multiple peaks) within the fixed volume (Video 7).
 
 [Diffusion_case2.mov](Diffusion_case2.mov)
 
-**Video 7: High Oriented Dragging force Diffusion**
+**Video 2: High Oriented Dragging force Diffusion**
