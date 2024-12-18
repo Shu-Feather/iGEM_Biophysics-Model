@@ -6,7 +6,7 @@ Status: Done
 
 In order to characterize our split enzyme system (take TEV as an example) first, we have conducted the 10-ns OPLS-AA/L all-atom force field molecular dynamics through GROMACS, under the NPT equilibrium for a 300K, 1 bar, ion-neutral (balanced ions are Na+ and Cl-) environment. The following is the validation of our manipulation (Figure 1): 
 
-![Figure. 1.svg](Figures/Figure._1.svg)
+![Figure. 1.svg](Figure._1.svg)
 
 **Figure 1: The validation of the molecular dynamics manipulation**
 
